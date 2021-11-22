@@ -1,6 +1,6 @@
 {
   "name": "arousa-ipc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An inter process comunicator using promises",
   "main": "index.js",
   "scripts": {
