@@ -10,7 +10,7 @@ If you have any question don't forget to visit our [Discord](https://discord.com
 
 - [What's **arousa-ipc**](#whats-arousa-ipc)
 - [How to use it?](#how-to-use-it)
-  - [Examplea](#example)
+  - [Examples](#example)
     - [Parent](#parent)
     - [Child](#child)
 - [Parent and Child objects](#parent-and-child-objects)
