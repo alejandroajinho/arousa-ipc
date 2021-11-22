@@ -1,0 +1,11 @@
+{
+  "name": "arousa-ipc",
+  "version": "1.0.0",
+  "description": "An inter process comunicator using promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alejandro_ajinho",
+  "license": "ISC"
+}
