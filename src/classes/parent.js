@@ -43,7 +43,7 @@ class Parent extends EventEmitter {
         if (!payload.messageId) return this.emit("message", new Message(payload, this));
         if (payload.reply) {
           if (!this.messages.has(payload.reply)) return this.emit("unhandledReply", new Message(payload, this));
-          this.messages.get(payload.reply).resolve(new Message(payload.this, this));
+          this.messages.get(payload.reply).resolve(new Message(payload, this));
           clearTimeout(this.messages.get(payload.reply));
           this.messages.delete(payload.reply);
         } else {
