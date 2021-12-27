@@ -40,7 +40,7 @@ const {fork} = require("child_process");
 
 const childProcess = fork("path/to/child");
 
-const child = new Child(childProcess);
+const child = new Child(childProcess).listen();
 
 child.send("Hello!!!").then((response) => {
   console.log(response);
@@ -53,7 +53,7 @@ child.send("Hello!!!").then((response) => {
 ```js
 const {Parent} = require("arousa-ipc");
 
-const parent = new Parent();
+const parent = new Parent().listen();
 
 parent.on("message", (message) => {
   console.log(message);
